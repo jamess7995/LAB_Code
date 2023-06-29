@@ -1,0 +1,6 @@
+nmap -p 80 192.168.204.142-147
+sudo systemctl start nessusd
+sudo /opt/nessus/sbin/nessuscli update
+https://localhost:8834
+192.168.0.142-147
+
